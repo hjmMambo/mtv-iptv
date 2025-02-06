@@ -139,19 +139,14 @@ CCTV-17农业农村,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/322122576
 兵团卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226439/index.m3u8
 
 广东,#genre#
-广东民生,http://mzitv.cn:32/tsfile/live/1009_1.m3u8
-广东民生,http://183.11.239.36:808/hls/18/index.m3u8
-广东民生,http://121.33.239.242:9901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0$订阅源-1920x1080
-广东民生,http://222.128.55.152:9080/live/gdms.m3u8
-广东民生,http://119.32.12.32:2901/udp/224.1.100.4:11111
-广东民生,http://14.112.86.85:4022/udp/239.77.0.225:5146
-广东民生,http://14.19.151.0:9900/udp/239.77.0.225:5146
+广东民生,http://119.32.12.32:2901/udp/224.1.100.4:11111$exo硬解
+
 
 港澳,#genre#
 中天新闻,http://hotelplay.net/live/pmb8krf68n4z/4d8cf4af8de3574c/477695.m3u8
 中天新闻,http://hotelplay.net/live/pmb8krf68n4z/4d8cf4af8de3574c/489006.m3u8
 翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct
-翡翠台,http://beishan008.asuscomm.com:8889/bysid/1.m3u8$LR•IPV4『线路48』
+翡翠台,http://beishan008.asuscomm.com:8889/bysid/1.m3u8$LR•IPV4『线路48』$ijk软解
 
 分类,#genre#
 节目名一,url
