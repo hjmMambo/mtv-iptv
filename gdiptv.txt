@@ -26,5 +26,11 @@ CCTV-17农业农村,http://39.134.67.108/PLTV/88888888/224/3221225708/1.m3u8
 广东民生,http://mzitv.cn:32/tsfile/live/1009_1.m3u8
 广东民生,http://183.11.239.36:808/hls/18/index.m3u8
 广东民生,http://121.33.239.242:9901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0$订阅源-1920x1080
-湖南卫视超清,http://113.109.250.178:9999/rtp/239.77.0.127:51
-中天新闻,http://cdn.iptv8k.top/dl/jspd.php?id=1$订阅源-1920x1080
+广东民生,http://222.128.55.152:9080/live/gdms.m3u8
+广东民生,http://119.32.12.32:2901/udp/224.1.100.4:11111
+广东民生,http://14.112.86.85:4022/udp/239.77.0.225:5146
+广东民生,http://14.19.151.0:9900/udp/239.77.0.225:5146
+中天新闻,http://hotelplay.net/live/pmb8krf68n4z/4d8cf4af8de3574c/477695.m3u8
+中天新闻,http://hotelplay.net/live/pmb8krf68n4z/4d8cf4af8de3574c/489006.m3u8
+
+
