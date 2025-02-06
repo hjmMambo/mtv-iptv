@@ -31,6 +31,22 @@ CCTV-17农业农村,http://39.134.67.108/PLTV/88888888/224/3221225708/1.m3u8
 中天新闻,http://hotelplay.net/live/pmb8krf68n4z/4d8cf4af8de3574c/477695.m3u8
 中天新闻,http://hotelplay.net/live/pmb8krf68n4z/4d8cf4af8de3574c/489006.m3u8
 
+翡翠,#genre#
+翡翠台,http://8.138.7.223/tv/gdmzyd.php?id=1$LR•IPV4『线路14』
+翡翠台,http://m.osvs.asia:8000/bysid/1$LR•IPV4『线路15』
+翡翠台,http://qjrhc.jydjd.top:2911/udp/224.1.100.1:11111$LR•IPV4『线路17』
+翡翠台,http://qjrhc.jydjd.top:2911/udp/224.1.100.121:11111$LR•IPV4『线路18』
+翡翠台,http://qjrhc.jydjd.top:2911/udp/224.1.100.122:11111$LR•IPV4『线路19』
+翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路20』
+翡翠台,http://185.243.7.13:80/play/live.php?mac=00:1A:79:45:5E:9A&stream=941619&extension=ts&play_token=p2yEuU1aFS$LR•IPV4『线路21』
+翡翠台,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4017&tk=7877e7cc41c7$LR•IPV4『线路31』
+翡翠台,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5022&tk=e503191f8e20$LR•IPV4『线路32』
+翡翠台,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0401&tk=2aca1ad9a849$LR•IPV4『线路33』
+翡翠台,http://122.152.202.33/s/81a8a44f/index.m3u8?id=53$LR•IPV4『线路34』
+翡翠台,http://beishan008.asuscomm.com:8889/bysid/1.m3u8$LR•IPV4『线路48』
+翡翠台,http://122.152.202.33/s/81a8a44f/index.m3u8?id=53$LR•IPV4『线路49』
+
+
 分类,#genre#
 节目名一,url
 节目名二,url
