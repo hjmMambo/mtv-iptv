@@ -58,11 +58,11 @@ CETV4,http://xxx.504900.xyz:35455/itv/5000000011000031126.m3u8?cdn=bestzb
 
 
 港澳,#genre#
-中天新闻,http://hotelplay.net/live/pmb8krf68n4z/4d8cf4af8de3574c/477695.m3u8
-中天新闻,http://hotelplay.net/live/pmb8krf68n4z/4d8cf4af8de3574c/489006.m3u8
-中天新闻,http://hotelplay.net/live/pmb8krf68n4z/4d8cf4af8de3574c/477695.m3u8
-中天新闻,http://hotelplay.net/live/pmb8krf68n4z/4d8cf4af8de3574c/489006.m3u8
-中天新闻,http://ali.hlspull.yximgs.com/live/c675b7f21d784a6b5e5d9373b0f13749.flv
+中天新闻台,http://hotelplay.net/live/pmb8krf68n4z/4d8cf4af8de3574c/477695.m3u8
+中天新闻台,http://hotelplay.net/live/pmb8krf68n4z/4d8cf4af8de3574c/489006.m3u8
+中天新闻台,http://hotelplay.net/live/pmb8krf68n4z/4d8cf4af8de3574c/477695.m3u8
+中天新闻台,http://hotelplay.net/live/pmb8krf68n4z/4d8cf4af8de3574c/489006.m3u8
+中天新闻台,http://ali.hlspull.yximgs.com/live/c675b7f21d784a6b5e5d9373b0f13749.flv
 中天新闻台,http://cdn.iptv8k.top/dl/jspd.php?id=1
 中天新闻台,http://211.75.171.121:8541/http/61.67.128.137:8081/hls/78/80/ch63max.m3u8
 中天新闻台,http://iptv.diyp.site/公众号【DIYP】关注一下啊.php?key=litv&id=9ece40f1-712e-43c8-9639-018c38d088ba
