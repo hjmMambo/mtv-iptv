@@ -38,13 +38,21 @@ CGTN阿语,http://8.138.7.223/【公众号：榴芒电视】/cgtna.m3u8
 广东珠江,http://php.jdshipin.com/TVOD/iptv.php?id=gdzj
 广东体育,http://php.jdshipin.com/TVOD/iptv.php?id=gdty
 广东民生,https://stream1.freetv.fun/ef0a351ba8e9a47d35d6ef6272bfe29ef46ff7928d6e260bfaf444474d314276.ctv
-廣東民生,https://stream1.freetv.fun/68f2612150667cf3ff5a8ea7636ba84d93f77dd3f23731590a4ec5131b961030.ctv
-廣東民生,https://stream1.freetv.fun/4e03fe3ba03fdd1092573fecb2617d263d4aa917f8efc028f6e41991e319f2d5.ctv
-廣東民生,https://stream1.freetv.fun/fbc4006b959f103db6854840f751902a08f13370f652dab3925a243bd8ee2f28.ctv
-廣東民生,https://stream1.freetv.fun/6ae036b979a656855d580bfcec177fdcda063f1ad07f31bcd3086bbd8b2971a9.ctv
-廣東民生,https://stream1.freetv.fun/c13b4824775ae6659e6903969fcb89f9bab70526e06b2a7f618ad62973ae21e6.m3u8
-廣東民生,https://stream1.freetv.fun/0485b26cc1307db685e8722f595b076fe59d63e4bb397c1459e503681273b5c0.ctv
+广东民生,https://stream1.freetv.fun/68f2612150667cf3ff5a8ea7636ba84d93f77dd3f23731590a4ec5131b961030.ctv
+广东民生,https://stream1.freetv.fun/4e03fe3ba03fdd1092573fecb2617d263d4aa917f8efc028f6e41991e319f2d5.ctv$慢
+广东民生,https://stream1.freetv.fun/fbc4006b959f103db6854840f751902a08f13370f652dab3925a243bd8ee2f28.ctv
+广东民生,https://stream1.freetv.fun/6ae036b979a656855d580bfcec177fdcda063f1ad07f31bcd3086bbd8b2971a9.ctv
+广东民生,https://stream1.freetv.fun/c13b4824775ae6659e6903969fcb89f9bab70526e06b2a7f618ad62973ae21e6.m3u8
+广东民生,https://stream1.freetv.fun/0485b26cc1307db685e8722f595b076fe59d63e4bb397c1459e503681273b5c0.ctv$慢
 江门综合,https://stream1.freetv.fun/34208bb761ca0a9d9ebff0b23fff48f678153ab000ab1f083e72d29c3c62a7ce.ctv
+广东新闻,http://120.238.94.10:9901/tsfile/live/1010_1.m3u8
+广东新闻,http://218.15.183.23:9901/tsfile/live/23010_1.m3u8
+广东卫视,https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4
+广东卫视,http://150.158.112.123/%E5%85%AC%E4%BC%97%E5%8F%B7~%E7%8E%89%E7%8E%89%E8%BD%AF%E4%BB%B6%E5%BA%93/mg.php?id=gdws
+大湾区卫视,http://150.158.112.123/%E5%85%AC%E4%BC%97%E5%8F%B7~%E7%8E%89%E7%8E%89%E8%BD%AF%E4%BB%B6%E5%BA%93/mg.php?id=dwqws
+深圳卫视,http://120.198.95.220:9901/tsfile/live/1048_1.m3u8?key=txiptv
+深圳卫视,http://api3.52tb.xyz/info?id=28&token=20230402fxrjwi#rtsp://115.85.205.19/PLTV/88888910/224/3221225558/10000100000000060000000000107338_0.smil
+深圳卫视,http://222.169.85.8:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
 
 
 港澳,#genre#
@@ -58,7 +66,10 @@ TVB亚洲武侠,http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
 TVB Plus,http://php.jdshipin.com:8880/TVOD/iptv.php?id=tvbp
 TVB星河台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=xinghe
 凤凰中文,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw2
-凤凰资讯,null
+凤凰资讯,http://122.117.71.103:8573/http/61.222.53.250:8078/hls/20/80/phoenixif.m3u8
+凤凰资讯,http://61.221.215.25:8800/hls/47/index.m3u8
+凤凰资讯,http://zb.xmzb.xyz/123.php?id=⚽马上oppppp一凤凰资讯
+凤凰资讯,http://ttkx.cc:1658/公开源454/fh.php?id=fhzx
 凤凰影视,http://221.7.175.154:8445/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&authid=0
 
 
@@ -69,5 +80,5 @@ https://stream1.freetv.fun/qing-hai-wei-shi-285.m3u8
 
 
 格式,#genre#
-节目名一,url
+节目名一,url$注释
 节目名二,url
