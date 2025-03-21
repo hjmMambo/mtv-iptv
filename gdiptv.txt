@@ -37,6 +37,8 @@ CGTN阿语,http://8.138.7.223/【公众号：榴芒电视】/cgtna.m3u8
 广东,#genre#
 广东珠江,http://php.jdshipin.com/TVOD/iptv.php?id=gdzj
 广东体育,http://php.jdshipin.com/TVOD/iptv.php?id=gdty
+广东民生,https://stream1.freetv.fun/ef0a351ba8e9a47d35d6ef6272bfe29ef46ff7928d6e260bfaf444474d314276.ctv
+江门综合,https://stream1.freetv.fun/34208bb761ca0a9d9ebff0b23fff48f678153ab000ab1f083e72d29c3c62a7ce.ctv
 
 
 港澳,#genre#
