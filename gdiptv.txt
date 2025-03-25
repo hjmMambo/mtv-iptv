@@ -161,18 +161,9 @@ CCTV17,http://219.135.180.210:18888/hls/24/index.m3u8
 翡翠[1920x1080],http://222.128.55.152:9080/live/gdfc.m3u8
 TVB明珠台[1920x1080],http://1b6467f415.iok.la:9931/tsfile/live/1009_1.m3u8
 无线星河频道[1920x1080],http://go1.bkpcp.top/tl/null-7
-
-卫视,#genre#
-广西卫视,http://php.jdshipin.com/TVOD/hljyd.php?id=3221226549
-甘肃卫视,http://php.jdshipin.com/TVOD/hljyd.php?id=3221225633
-https://stream1.freetv.fun/qing-hai-wei-shi-285.m3u8
-
-
-格式,#genre#
-节目名一,url$注释
-节目名二,url
-
-
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct2
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct3
 
 卫视,#genre#
 广西卫视,http://php.jdshipin.com/TVOD/hljyd.php?id=3221226549
