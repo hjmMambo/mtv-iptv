@@ -57,6 +57,7 @@
 凤凰卫视,http://119.32.12.17:2901/udp/224.1.100.3:11111
 凤凰卫视,http://120.198.101.106:9901/tsfile/live/1062_1.m3u8?key=txiptv
 凤凰卫视,http://120.198.101.106:9901/tsfile/live/1062_1.m3u8?key=txiptv
+中天新闻,http://141.11.86.78:8088/live/4gtv.php?ch=260
 中天新闻,http://xn--elt51t.azip.dpdns.org:5008/4gtv-4gtv009/index.m3u8
 中天新闻,http://xn--elt51t.azip.dpdns.org:5008/4gtv-4gtv009/index.m3u8
 中天新闻,http://xn--elt51t.azip.dpdns.org:5008/li-4gtv-4gtv009/index.m3u8
