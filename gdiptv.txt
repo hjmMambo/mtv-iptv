@@ -195,6 +195,12 @@ CETV2,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv4&vid
 中天新聞,https://stream1.freetv.fun/857501eecc3f5e76152bb2141e43acfa74c5c1f8b65679074f1099f1ff47fa46.m3u8
 中天新聞,https://stream1.freetv.fun/5b84b0baf55fce778cffd1d5a35ef8e77dfb02436d82cd5a83dd78c61c90462e.m3u8
 翡翠台,http://php.jdshipin.com:8880/smt.php?id=jade_twn
+翡翠台,https://stream1.freetv.fun/0ad6067777289c8f34845f7c2ceef1b6de586fdaaf6a8e6409e0be115b7e1be5.ctv
+翡翠台,https://stream1.freetv.fun/0ad6067777289c8f34845f7c2ceef1b6de586fdaaf6a8e6409e0be115b7e1be5.ctv
+翡翠台,https://stream1.freetv.fun/a035702c7c391049563b481a896a6b900d76616131f707e8692e8a3676a3cafe.ctv
+翡翠台,https://stream1.freetv.fun/hua-li-fei-cui-tai-1.ctv
+翡翠台,https://stream1.freetv.fun/25662d13e84909209ef3556d2905f326968ab0fb5db740a420b360be96de3154.ctv
+翡翠台,https://stream1.freetv.fun/fei-cui-19.ctv
 
 
 卫视,#genre#
