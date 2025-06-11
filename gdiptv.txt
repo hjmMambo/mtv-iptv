@@ -201,7 +201,26 @@ CETV2,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv4&vid
 翡翠台,https://stream1.freetv.fun/3bd92ecf4addfeef82a8c52473660ae86f785172a1be2f7fb17b1930165cf4de.m3u8
 
 
-卫视,#genre#
+广东,#genre#
+广东民生,https://stream1.freetv.fun/1068e9ede2ed2abaa7bed168f809ea1428cb8d6fc7e9c460864a562db7ce8b88.ctv
+广东民生,https://stream1.freetv.fun/1068e9ede2ed2abaa7bed168f809ea1428cb8d6fc7e9c460864a562db7ce8b88.ctv
+广东民生,https://stream1.freetv.fun/cdf612b69b38241cfdf541c2cb993bd5725c37f8c28094f49f6f1a391182d013.ctv
+广东民生,https://stream1.freetv.fun/yan-dong-min-sheng-39.ctv
+广东民生,https://stream1.freetv.fun/85df84199c81d51bd3224d3b4abf66ef9fe09f87f2c02c334262d539a592b594.ctv
+广东民生,https://stream1.freetv.fun/yan-dong-min-sheng-19.ctv
+广东民生,https://stream1.freetv.fun/308189fb0df87fe765cd3552773a4fe45bba1feccb8bdc1c6cdf8802c497341e.m3u8
+广东民生,https://stream1.freetv.fun/yan-dong-min-sheng-30.m3u8
+广东民生,https://stream1.freetv.fun/d45cfd603f67abdfb3f969833688b1ca785e22eccc790bf520bd8f89927f2f4b.ctv
+广东民生,https://stream1.freetv.fun/yan-dong-min-sheng-40.ctv
+广东民生,https://stream1.freetv.fun/75e658d0ed45c6ed3503f3e8e7ca5e45ebd6e4e7f681138254ab74b943328cbc.ctv
+广东民生,https://stream1.freetv.fun/yan-dong-min-sheng-15.ctv
+广东民生,https://stream1.freetv.fun/aacfe255321c041092fc54fe1250336c49e3a785cb7e76a12280593196ad0f55.ctv
+广东民生,https://stream1.freetv.fun/yan-dong-min-sheng-7.ctv
+广东民生,https://stream1.freetv.fun/2354bc4edf14a9ba6814c448e808d276bbca0f1fe8133b1e0812e0322ce83beb.ctv
+广东民生,https://stream1.freetv.fun/yan-dong-min-sheng-29.ctv
+广东民生,https://stream1.freetv.fun/d705bf2698d0b56ef2db9514c5bdf14406bd0c7fbdfd887eb3b649750bb83361.ctv
+广东民生,https://stream1.freetv.fun/yan-dong-min-sheng-38.ctv
+
 
 
 
