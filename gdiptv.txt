@@ -1,11 +1,37 @@
 央视频道,#genre#
-cctv1,http://124.65.4.92:20000/rtp/239.3.1.129:8008
-cctv2,http://111.43.126.240:9003/hls/14/index.m3u8
+CCTV-1综合,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv1
+CCTV-2财经,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv2
+CCTV-3综艺,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv3
+CCTV-4中文国际,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv4
+CCTV-4欧洲,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv4m
+CCTV-4美洲,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv4o
+CCTV-5体育,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv5
 CCTV-5体育,http://api.kkitv.itv888.cn:8080/hls/7vx0ia55les/index.m3u8
 CCTV-5+体育赛事,http://api.kkitv.itv888.cn:8080/hls/xsb4znrv3c/index.m3u8
-cctv6,http://api.kkitv.itv888.cn:8080/hls/tp9ajk4od5/index.m3u8
-cctv7,http://113.81.20.131:20443/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
-cctv16 4k,http://219.140.7.113:3520/rtp/239.69.1.249:11136
+CCTV-5+体育赛事,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv5p
+CCTV-6电影,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv6
+CCTV-6电影,http://api.kkitv.itv888.cn:8080/hls/tp9ajk4od5/index.m3u8
+CCTV-7国防军事,http://113.81.20.131:20443/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-7国防军事,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv7
+CCTV-8电视剧,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv8
+CCTV-9纪录,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv9
+CCTV-10科教,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv10
+CCTV-11戏曲,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv11
+CCTV-12社会与法,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv12
+CCTV-13新闻,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv13
+CCTV-14少儿,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv14
+CCTV-15音乐,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv15
+CCTV-16奥林匹克,http://219.140.7.113:3520/rtp/239.69.1.249:11136
+CCTV-17农业农村,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv17
+CCTV发现之旅,http://mg.hmysapp.cn:177/ckmg/zb.php?id=fxzl
+CCTV老故事,http://mg.hmysapp.cn:177/ckmg/zb.php?id=lgs
+CCTV中学生,http://mg.hmysapp.cn:177/ckmg/zb.php?id=zxs
+CGTN,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cgtn
+CGTN纪录,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cgtnjl
+CCTV西班牙语,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cgtne
+CCTV法语,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cgtnf
+CCTV阿拉伯语,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cgtna
+CCTV俄语,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cgtnr
 
 卫视,#genre#
 广东卫视,http://113.65.4.78:7188/udp/239.77.1.19:5146
@@ -30,6 +56,7 @@ cctv16 4k,http://219.140.7.113:3520/rtp/239.69.1.249:11136
 格式,#genre#
 节目名一,url$注释
 节目名二,url
+
 
 
 
