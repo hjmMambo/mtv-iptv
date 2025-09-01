@@ -1,4 +1,4 @@
-央视频道,#genre#
+央视,#genre#
 CCTV-1综合,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv1
 CCTV-2财经,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv2
 CCTV-3综艺,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv3
@@ -60,6 +60,7 @@ CCTV俄语,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cgtnr
 格式,#genre#
 节目名一,url$注释
 节目名二,url
+
 
 
 
