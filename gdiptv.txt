@@ -1,5 +1,4 @@
 央视,#genre#
-C:\Users\Frauder\AppData\Local\Programs\Python\Python313\pythonw.exe C:\Users\Frauder\Desktop\python练习\直播源测试\央视插入新直播源到对应节目名称的末尾.py 
 CCTV-1综合,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv1
 CCTV-1综合,http://106.52.196.79:80/TV/mui.php?id=cctv1
 CCTV-1综合,http://120.197.253.254:1818/rtp/239.20.0.104:2006
@@ -128,6 +127,7 @@ CCTV俄语,http://106.52.196.79:80/TV/mui.php?id=cgtnr
 格式,#genre#
 节目名一,url$注释
 节目名二,url
+
 
 
 
