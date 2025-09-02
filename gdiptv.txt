@@ -123,6 +123,10 @@ CCTV俄语,http://106.52.196.79:80/TV/mui.php?id=cgtnr
 凤凰卫视,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzw
 翡翠台,http://php.jdshipin.com:8880/smt.php?id=jade_twn
 翡翠台,http://iptv.4666888.xyz/iptv.php?id=20066
+中视新闻,http://iptv.4666888.xyz/iptv.php?id=20171
+台视新闻,http://iptv.4666888.xyz/iptv.php?id=20172
+中天新闻,http://iptv.4666888.xyz/iptv.php?id=20173
+东森新闻,http://iptv.4666888.xyz/iptv.php?id=20174
 
 
 
@@ -131,6 +135,7 @@ CCTV俄语,http://106.52.196.79:80/TV/mui.php?id=cgtnr
 格式,#genre#
 节目名一,url$注释
 节目名二,url
+
 
 
 
