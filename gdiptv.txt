@@ -96,27 +96,13 @@ CCTV俄语,http://106.52.196.79:80/TV/mui.php?id=cgtnr
 广东卫视,http://113.65.4.78:7188/udp/239.77.1.19:5146
 广东卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=gdws
 东方卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=dfws
-重庆卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cqws
 吉林卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=jlws
-辽宁卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=lnws
-内蒙古卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=nmws
-宁夏卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=nxws
-甘肃卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=gsws
 青海卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=qhws
-陕西卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=sxws
-山东卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=sdws
 河南卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=hnws
 湖北卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=hubws
-湖南卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=hunws
 江西卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=jxws
 江苏卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=jsws
-东南卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=dnws
 海峡卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=hxws
-广西卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=gxws
-云南卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=ynws
-贵州卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=gzws
-新疆卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=xjws
-西藏卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=xzws
 海南卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=hinws
 
 
@@ -147,6 +133,7 @@ CCTV俄语,http://106.52.196.79:80/TV/mui.php?id=cgtnr
 格式,#genre#
 节目名一,url$注释
 节目名二,url
+
 
 
 
