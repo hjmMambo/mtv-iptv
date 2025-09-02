@@ -3,10 +3,10 @@ CCTV-1综合,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv1
 CCTV-1综合,http://106.52.196.79:80/TV/mui.php?id=cctv1
 CCTV-1综合,http://xunchi.asuscomm.com:3000/rtp/239.3.1.129:8008
 
-http://xunchi.asuscomm.com:3000/rtp/239.3.1.129:8008
 
 CCTV-2财经,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv2
 CCTV-2财经,http://106.52.196.79:80/TV/mui.php?id=cctv2
+CCTV-2财经,http://xunchi.asuscomm.com:3000/rtp/239.3.1.60:8084
 
 CCTV-3综艺,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv3
 CCTV-3综艺,http://106.52.196.79:80/TV/mui.php?id=cctv3
@@ -138,6 +138,7 @@ CCTV俄语,http://106.52.196.79:80/TV/mui.php?id=cgtnr
 格式,#genre#
 节目名一,url$注释
 节目名二,url
+
 
 
 
