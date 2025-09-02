@@ -1,12 +1,11 @@
 央视,#genre#
 CCTV-1综合,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv1
 CCTV-1综合,http://106.52.196.79:80/TV/mui.php?id=cctv1
-CCTV-1综合,http://xunchi.asuscomm.com:3000/rtp/239.3.1.129:8008
 
 
 CCTV-2财经,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv2
 CCTV-2财经,http://106.52.196.79:80/TV/mui.php?id=cctv2
-CCTV-2财经,http://xunchi.asuscomm.com:3000/rtp/239.3.1.60:8084
+
 
 CCTV-3综艺,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv3
 CCTV-3综艺,http://106.52.196.79:80/TV/mui.php?id=cctv3
@@ -94,18 +93,6 @@ CCTV俄语,http://106.52.196.79:80/TV/mui.php?id=cgtnr
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 卫视,#genre#
 广东卫视,http://113.65.4.78:7188/udp/239.77.1.19:5146
 
@@ -117,6 +104,8 @@ CCTV俄语,http://106.52.196.79:80/TV/mui.php?id=cgtnr
 广东体育,http://113.81.20.131:20443/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
 广东影视,http://113.81.20.131:20443/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
 广东新闻,http://113.81.20.131:20443/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
+南方卫视,http://120.197.253.254:1818/rtp/239.20.0.125:2048
+南方卫视,http://120.197.253.254:1818/rtp/239.21.0.84:3676
 
 
 港澳,#genre#
@@ -138,6 +127,7 @@ CCTV俄语,http://106.52.196.79:80/TV/mui.php?id=cgtnr
 格式,#genre#
 节目名一,url$注释
 节目名二,url
+
 
 
 
