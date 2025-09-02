@@ -5,19 +5,6 @@ CCTV-1综合,http://106.52.196.79:80/TV/mui.php?id=cctv1
 CCTV-1综合,http://120.197.253.254:1818/rtp/239.20.0.104:2006
 CCTV-1综合,http://120.197.253.254:1818/rtp/239.20.0.192:2182
 CCTV-1综合,http://120.197.253.254:1818/rtp/239.20.0.96:3016
-CCTV-1综合,http://120.197.253.254:1818/rtp/239.20.0.180:2158
-CCTV-1综合,http://120.197.253.254:1818/rtp/239.20.0.200:2198
-CCTV-1综合,http://120.197.253.254:1818/rtp/239.20.0.181:2160
-CCTV-1综合,http://120.197.253.254:1818/rtp/239.21.0.35:3480
-CCTV-1综合,http://120.197.253.254:1818/rtp/239.20.0.182:2162
-CCTV-1综合,http://120.197.253.254:1818/rtp/239.20.0.183:2164
-CCTV-1综合,http://120.197.253.254:1818/rtp/239.21.0.88:3692
-CCTV-1综合,http://120.197.253.254:1818/rtp/239.20.0.184:2166
-CCTV-1综合,http://120.197.253.254:1818/rtp/239.20.0.202:2202
-CCTV-1综合,http://120.197.253.254:1818/rtp/239.20.0.185:2168
-CCTV-1综合,http://120.197.253.254:1818/rtp/239.21.0.36:3484
-CCTV-1综合,http://120.197.253.254:1818/rtp/239.20.0.7:3376
-CCTV-1综合,http://120.197.253.254:1818/rtp/239.20.0.8:3372
 CCTV-2财经,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv2
 CCTV-2财经,http://106.52.196.79:80/TV/mui.php?id=cctv2
 CCTV-2财经,http://120.197.253.254:1818/rtp/239.20.0.176:2150
@@ -64,16 +51,27 @@ CCTV-10科教,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv10
 CCTV-10科教,http://106.52.196.79:80/TV/mui.php?id=cctv10
 CCTV-11戏曲,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv11
 CCTV-11戏曲,http://106.52.196.79:80/TV/mui.php?id=cctv11
+CCTV-11戏曲,http://120.197.253.254:1818/rtp/239.21.0.35:3480
+CCTV-11戏曲,http://120.197.253.254:1818/rtp/239.20.0.181:2160
 CCTV-12社会与法,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv12
 CCTV-12社会与法,http://106.52.196.79:80/TV/mui.php?id=cctv12
+CCTV-12社会与法,http://120.197.253.254:1818/rtp/239.20.0.182:2162
+CCTV-13新闻,http://120.197.253.254:1818/rtp/239.21.0.88:3692
 CCTV-13新闻,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv13
 CCTV-13新闻,http://106.52.196.79:80/TV/mui.php?id=cctv13
+CCTV-13新闻,http://120.197.253.254:1818/rtp/239.20.0.183:2164
 CCTV-14少儿,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv14
+CCTV-14少儿,http://120.197.253.254:1818/rtp/239.20.0.202:2202
+CCTV-14少儿,http://120.197.253.254:1818/rtp/239.20.0.184:2166
 CCTV-14少儿,http://106.52.196.79:80/TV/mui.php?id=cctv14
 CCTV-15音乐,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv15
+CCTV-15音乐,http://120.197.253.254:1818/rtp/239.21.0.36:3484
+CCTV-15音乐,http://120.197.253.254:1818/rtp/239.20.0.185:2168
 CCTV-15音乐,http://106.52.196.79:80/TV/mui.php?id=cctv15
 CCTV-16奥林匹克,http://219.140.7.113:3520/rtp/239.69.1.249:11136
 CCTV-17农业农村,http://mg.hmysapp.cn:177/ckmg/zb.php?id=cctv17
+CCTV-17农业农村,http://120.197.253.254:1818/rtp/239.20.0.7:3376
+CCTV-17农业农村,http://120.197.253.254:1818/rtp/239.20.0.8:3372
 CCTV-17农业农村,http://106.52.196.79:80/TV/mui.php?id=cctv17
 CCTV发现之旅,http://mg.hmysapp.cn:177/ckmg/zb.php?id=fxzl
 CCTV发现之旅,http://106.52.196.79:80/TV/mui.php?id=fxzl
@@ -130,6 +128,7 @@ CCTV俄语,http://106.52.196.79:80/TV/mui.php?id=cgtnr
 格式,#genre#
 节目名一,url$注释
 节目名二,url
+
 
 
 
