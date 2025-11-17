@@ -4,17 +4,38 @@ CCTV5体育,https://stream1.freetv.fun/36471d351a7b2e3b9ed9c6c957a5f29496b2aa3a2
 
 
 卫视,#genre#
-广东卫视,http://113.65.4.78:7188/udp/239.77.1.19:5146
-广东卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=gdws
-东方卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=dfws
-吉林卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=jlws
-青海卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=qhws
-河南卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=hnws
-湖北卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=hubws
-江西卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=jxws
-江苏卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=jsws
-海峡卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=hxws
-海南卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=hinws
+陕西卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/sxws_4000.m3u8
+西藏卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/xzwsH264_2000.m3u8
+吉林卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/jlwsH265_4000.m3u8
+兵团卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/btws_4000.m3u8
+山东卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/sdwsH265_4000.m3u8
+云南卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/ynws_4000.m3u8
+东方卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/dfwsH265_4000.m3u8
+康巴卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/kbwsH264_2000.m3u8
+广东卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/gdwsH265_4000.m3u8
+新疆卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/xjws_4000.m3u8
+海南卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/hnws_4000.m3u8
+北京卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/bjwsH265_4000.m3u8
+江西卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/jxwsH265_4000.m3u8
+天津卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/tjwsH265_4000.m3u8
+重庆卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/cqwsH265_4000.m3u8
+辽宁卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/lnwsHDH264_4000.m3u8
+浙江卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/zjwsH265_4000.m3u8
+江苏卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/jswsH265_4000.m3u8
+安徽卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/ahwsH265_4000.m3u8
+四川卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/scwsH265_4000.m3u8
+广西卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/gxws_4000.m3u8
+深圳卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/szwsH265_4000.m3u8
+甘肃卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/gsws_4000.m3u8
+青海卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/qhwsH264_2000.m3u8
+贵州卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/gzwsH265_4000.m3u8
+山西卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/sxws42_4000.m3u8
+湖南卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/hnwsH265_4000.m3u8
+湖北卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/hbwsH265_4000.m3u8
+东南卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/dnwsfjwsH265_4000.m3u8
+河南卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/hnws35_4000.m3u8
+黑龙江卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/hljwsH265_4000.m3u8
+内蒙古卫视,http://58.144.249.3:2380/hw1live.rxip.sc96655.com.huan.tv/live/nmgws_4000.m3u8
 
 
 广东,#genre#
@@ -44,6 +65,7 @@ CCTV5体育,https://stream1.freetv.fun/36471d351a7b2e3b9ed9c6c957a5f29496b2aa3a2
 格式,#genre#
 节目名一,url$注释
 节目名二,url
+
 
 
 
