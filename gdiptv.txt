@@ -1,6 +1,4 @@
 央视,#genre#
-好的，遵照您的要求，我将按“名字,链接”的格式，并以您要求的排序方式（优先bxtv.3a.ink源，然后按频道编号）整理并打印到代码块中，方便您复制。
-
 CCTV1,http://bxtv.3a.ink/migu.php?id=cctv1
 CCTV1,http://api.kkitv.itv888.cn:8080/hls/f5fuln3kthe/index.m3u8
 CCTV2,http://bxtv.3a.ink/migu.php?id=cctv2
@@ -108,6 +106,7 @@ CCTV17,http://api.kkitv.itv888.cn:8080/hls/5t4bgijh9da/index.m3u8
 格式,#genre#
 节目名一,url$注释
 节目名二,url
+
 
 
 
