@@ -9,10 +9,37 @@ CCTV4,http://api.kkitv.itv888.cn:8080/hls/25uo2rutach/index.m3u8
 CCTV3,http://api.kkitv.itv888.cn:8080/hls/aikp69mli0d/index.m3u8
 CCTV9,http://api.kkitv.itv888.cn:8080/hls/bsmkmf3jrp4/index.m3u8
 CCTV6,http://api.kkitv.itv888.cn:8080/hls/tp9ajk4od5/index.m3u8
+CCTV15,http://api.kkitv.itv888.cn:8080/hls/hcwu4ianhgw/index.m3u8
+CCTV10,http://api.kkitv.itv888.cn:8080/hls/wd86wxjxn8/index.m3u8
+CCTV16,http://api.kkitv.itv888.cn:8080/hls/qazacsm0hgl/index.m3u8
+CCTV14,http://api.kkitv.itv888.cn:8080/hls/dyfpqk8fpzi/index.m3u8
+CCTV12,http://api.kkitv.itv888.cn:8080/hls/nwfb31kwc3l/index.m3u8
+CCTV17,http://api.kkitv.itv888.cn:8080/hls/5t4bgijh9da/index.m3u8
+CCTV11,http://api.kkitv.itv888.cn:8080/hls/og4kq4cnqm/index.m3u8
+CCTV7,http://api.kkitv.itv888.cn:8080/hls/3udggaszi1i/index.m3u8
 
 
 
 卫视,#genre#
+湖北卫视,http://api.kkitv.itv888.cn:8080/hls/qwummpaoaq/index.m3u8
+宁夏卫视,http://api.kkitv.itv888.cn:8080/hls/5aqjww52bju/index.m3u8
+河北卫视,http://api.kkitv.itv888.cn:8080/hls/nd41hwdr82i/index.m3u8
+云南卫视,http://api.kkitv.itv888.cn:8080/hls/jwvhleddq5/index.m3u8
+吉林卫视,http://api.kkitv.itv888.cn:8080/hls/b6dl8yuvu/index.m3u8
+陕西卫视,http://api.kkitv.itv888.cn:8080/hls/hyy3w1xyoaw/index.m3u8
+广西卫视,http://api.kkitv.itv888.cn:8080/hls/yvz4ndj9dqb/index.m3u8
+东南卫视,http://api.kkitv.itv888.cn:8080/hls/jjt15bvbl7a/index.m3u8
+兵团卫视,http://api.kkitv.itv888.cn:8080/hls/nbzfa7gljzp/index.m3u8
+辽宁卫视,http://api.kkitv.itv888.cn:8080/hls/iibq0absdjr/index.m3u8
+海南卫视,http://api.kkitv.itv888.cn:8080/hls/c1cajhsgba8/index.m3u8
+河南卫视,http://api.kkitv.itv888.cn:8080/hls/zkb0p6ypy6o/index.m3u8
+贵州卫视,http://api.kkitv.itv888.cn:8080/hls/5dqtpf3arun/index.m3u8
+厦门卫视,http://api.kkitv.itv888.cn:8080/hls/9bc9p47rpbq/index.m3u8
+安多卫视,http://api.kkitv.itv888.cn:8080/hls/in5vcs8br9q/index.m3u8
+青海卫视,http://api.kkitv.itv888.cn:8080/hls/ry7s3t5wmqa/index.m3u8
+西藏卫视,http://api.kkitv.itv888.cn:8080/hls/j9loqozn2m/index.m3u8
+延边卫视,http://api.kkitv.itv888.cn:8080/hls/syoaqq9eqv/index.m3u8
+康巴卫视,http://api.kkitv.itv888.cn:8080/hls/1gfeb36jeuv/index.m3u8
 山东教育卫视,http://api.kkitv.itv888.cn:8080/hls/y5rpiddjcqf/index.m3u8
 黑龙江卫视,http://api.kkitv.itv888.cn:8080/hls/2a24lcvser/index.m3u8
 内蒙古卫视,http://api.kkitv.itv888.cn:8080/hls/t4wf5047i/index.m3u8
@@ -62,6 +89,7 @@ CCTV6,http://api.kkitv.itv888.cn:8080/hls/tp9ajk4od5/index.m3u8
 格式,#genre#
 节目名一,url$注释
 节目名二,url
+
 
 
 
