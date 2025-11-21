@@ -43,7 +43,7 @@ if [[ "${NAME}" == *Alpine* ]]; then
 	cat << EOF > ${caddy_file}
 ${domain_list[0]} {
 	tls /certs/${domain_list[0]}_ecc/server.crt /certs/${domain_list[0]}_ecc/server.key
-	@sui path /suiguipanelweb*
+	@sui path /panel*
 	handle @sui {
 		reverse_proxy localhost:12345
 	}
