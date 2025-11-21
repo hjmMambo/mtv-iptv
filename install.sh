@@ -71,20 +71,20 @@ config_after_install() {
     if [[ "${config_confirm}" == "y" || "${config_confirm}" == "Y" ]]; then
         echo -e "Enter the ${yellow}panel port${plain} (默认面板端口：12345):"
         read config_port
-        #config_port=${config_port:-12345}
+        config_port=${config_port:-12345}
         
         echo -e "Enter the ${yellow}panel path${plain} (默认面板路径：/panel):"
         read config_path
-        #config_path=${config_path:-/panel}
+        config_path=${config_path:-/panel}
         
 
         # Sub configuration
         echo -e "Enter the ${yellow}subscription port${plain} (默认订阅端口：12346):"
         read config_subPort
-        #config_subPort=${config_subPort:-12346}
+        config_subPort=${config_subPort:-12346}
         echo -e "Enter the ${yellow}subscription path${plain} (默认订阅路径:/subs):" 
         read config_subPath
-        #config_subPath=${config_subPath:-/subs}
+        config_subPath=${config_subPath:-/subs}
 
         # Set configs
         echo -e "${yellow}Initializing, please wait...${plain}"
