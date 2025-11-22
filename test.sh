@@ -73,7 +73,8 @@ EOF
 	
 	caddy_status=$(rc-service caddy status)
 	if [[ ${message} == " * status: started" ]]; then
-		echo -e "\033[1;32m检测caddy已启动,重载caddy...\033[0m"
+		echo -e "\033[1;32m检测caddy已启动\033[0m"
+		echo -e "\033[1;32m重载caddy...\033[0m"
 		rc-service caddy reload
 		echo "caddy 服务正在运行"
 	else
