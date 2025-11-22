@@ -67,7 +67,8 @@ config_after_install() {
     /usr/local/s-ui/sui migrate
     
     echo -e "${yellow}Install/update finished! For security it's recommended to modify panel settings ${plain}"
-    read -p "Do you want to continue with the modification [y/n]? ": config_confirm
+    read -p "是否需要设置面板和管理员账号 [y/n,默认y]? ": config_confirm
+    config_confirm=${config_confirm:-y}
     if [[ "${config_confirm}" == "y" || "${config_confirm}" == "Y" ]]; then
         echo -e "Enter the ${yellow}panel port${plain} (默认面板端口：12345):"
         read config_port
@@ -100,7 +101,8 @@ config_after_install() {
         [ -z "$config_subPath" ] || params="$params -subPath $config_subPath"
         /usr/local/s-ui/sui setting ${params}
 
-        read -p "Do you want to change admin credentials [y/n]? ": admin_confirm
+        read -p "是否修改管理员账号 [y/n,默认n]? ": admin_confirm
+        admin_confirm=${admin_confirm:-n}
         if [[ "${admin_confirm}" == "y" || "${admin_confirm}" == "Y" ]]; then
             # First admin credentials
             read -p "Please set up your username:" config_account
