@@ -39,7 +39,8 @@ if [[ "${NAME}" == *Alpine* ]]; then
 	echo -e "\033[1;32m自动配置caddy文件...\033[0m"
 	
 	caddy_file="/etc/caddy/Caddyfile"
-	
+
+	grpc_path=$(cat /dev/urandom | tr -cd 'a-zA-Z0-9' | head -c 8)
 	cat << EOF > ${caddy_file}
 ${domain_list[0]} {
 	tls /certs/${domain_list[0]}_ecc/server.crt /certs/${domain_list[0]}_ecc/server.key
@@ -55,7 +56,7 @@ ${domain_list[0]} {
 
 ${domain_list[1]} {
 	tls /certs/${domain_list[1]}_ecc/server.crt /certs/${domain_list[1]}_ecc/server.key
-	@grpc path /vlessgrpcdoros233*
+	@grpc path /${grpc_path}*
 	handle @grpc {
 		reverse_proxy localhost:20001 {
 			transport http {
@@ -79,6 +80,8 @@ EOF
 	
 	nohup /usr/local/s-ui/sui > /var/log/s-ui.log 2>&1 &
 	echo -e "\033[1;32m成功启动 s-ui\033[0m"
+	echo "s-ui域名:${domain_list[0]}"
+	echo "grpc路径：${grpc_path}"
 else
 	echo "不相等"
 fi
