@@ -70,8 +70,17 @@ ${domain_list[1]} {
 	}
 }
 EOF
-	echo -e "\033[1;32m启动caddy\033[0m"
-	rc-service caddy start
+	
+	caddy_status=$(rc-service caddy status)
+	if [[ ${message} == " * status: started" ]]; then
+		echo -e "\033[1;32m检测caddy已启动,重载caddy...\033[0m"
+		rc-service caddy reload
+		echo "caddy 服务正在运行"
+	else
+		echo -e "\033[1;32m启动caddy\033[0m"
+		rc-service caddy start
+fi
+	
 	echo -e "\033[1;32m安装 s-ui 面板\033[0m"
 	
 	curl -fsSL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/install.sh -o install.sh
