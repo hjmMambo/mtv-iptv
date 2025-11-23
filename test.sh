@@ -23,6 +23,7 @@ if [[ "${NAME}" == *Alpine* ]]; then
 	address_choose=${address_choose:-1}
 
 	if (( ${address_choose} == 1 )); then
+		echo -e "\033[1;32m注意：不是填写dns记录里的域名，而是填写解析域名。\033[0m"
 		echo -n "输入域名："
 		read address
 
