@@ -29,14 +29,14 @@ if [[ "${NAME}" == *Alpine* ]]; then
 		
 		echo -n "输入dns记录上的域名："
 		read address_domain
+
+		echo -n "输入面板端口(默认：12345)："
+		read sui_port
+		sui_port=${sui_port:-12345}
 		
 		echo -n "输入面板路径(格式：/路径,默认:/panel)："
 		read sui_path
 		sui_path=${sui_path:-/panel}
-		
-		echo -n "输入面板端口(默认：12345)："
-		read sui_port
-		sui_port=${sui_port:-12345}
 		
 		echo -n "输入服务端的节点端口(默认:20001)："
 		read proxy_port
@@ -157,9 +157,10 @@ fi
 	
 	echo -e "\033[1;32m安装 s-ui 面板\033[0m"
 	
-	curl -fsSL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/install.sh -o install.sh
-	chmod +x install.sh
-	./install.sh
+	# curl -fsSL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/install.sh -o install.sh
+	# chmod +x install.sh
+	# ./install.sh
+	source <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/install.sh)
 	
 	nohup /usr/local/s-ui/sui > /var/log/s-ui.log 2>&1 &
 	echo -e "\033[1;32m成功启动 s-ui\033[0m"
