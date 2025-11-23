@@ -1,3 +1,3 @@
 #! /bash/bin
 
-echo "成功执行"
+name="这是t1的name"
