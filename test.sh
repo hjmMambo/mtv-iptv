@@ -9,6 +9,8 @@ if [[ "${NAME}" == *Alpine* ]]; then
 	apk add openssl > /dev/null			# 安装自签证书
 	echo -e "\033[1;32m安装 caddy\033[0m"
 	apk add caddy > /dev/null			# 安装caddy
+	echo -e "\033[1;32m安装 iproute2\033[0m"
+	apk add iproute2
 
 	domain_list=()
 	echo -e "\033[1;32m----自签证书生成----\033[0m"
