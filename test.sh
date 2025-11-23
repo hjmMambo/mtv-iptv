@@ -14,8 +14,9 @@ if [[ "${NAME}" == *Alpine* ]]; then
 	echo -e "\033[1;32m----自签证书生成----\033[0m"
 
 	echo -e "\033[1;32m选项：\033[0m"
-	echo -n "1：签发1个域名证书（面板和节点使用同一个证书,默认选项）"
-	echo -n "2：签发2个不同的域名证书（面板和节点各一个）"
+	echo "1：签发1个域名证书（面板和节点使用同一个证书,默认选项）"
+	echo "2：签发2个不同的域名证书（面板和节点各一个）"
+	echo -n "选择："
 	read address_choose
 	address_choose=${address_choose:-1}
 
