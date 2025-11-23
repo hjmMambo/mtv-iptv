@@ -59,7 +59,7 @@ if [[ "${NAME}" == *Alpine* ]]; then
 *.${address} {
 	tls /certs/owob.netlib.re_ecc/server.crt /certs/owob.netlib.re_ecc/server.key
 	@fweb_suipanelweb {
-		host ${address_domain}.${address}
+		host ${address_domain}
 		path ${sui_path}*
 	}
 	handle @fweb_suipanelweb {
@@ -67,7 +67,7 @@ if [[ "${NAME}" == *Alpine* ]]; then
 	}
 
 	@grpc {
-		host ${address_domain}.${address}
+		host ${address_domain}
 		path /${grpc_path}*
 	}
 	handle @grpc {
