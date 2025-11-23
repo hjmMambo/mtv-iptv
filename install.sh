@@ -76,12 +76,14 @@ config_after_install() {
         # config_port=${config_port:-12345}
         # echo "${config_port}"
         config_port=${sui_port}
+        echo "${config_port}"
         
         # echo -ne "Enter the ${yellow}panel path${plain} (默认面板路径：/suipanelweb):"
         # read config_path
         # config_path=${config_path:-/suipanelweb}
         # echo "${config_path}"
         config_path=${sui_path}
+        echo "${config_path}"
         
 
         # Sub configuration
