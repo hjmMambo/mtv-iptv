@@ -91,7 +91,7 @@ config_after_install() {
         # read config_subPort
         # config_subPort=${config_subPort:-12346}
         # echo "${config_subPort}"
-        config_path=12346
+        config_subPort=12346
         
         # echo -ne "Enter the ${yellow}subscription path${plain} (默认订阅路径:/subs):" 
         # read config_subPath
