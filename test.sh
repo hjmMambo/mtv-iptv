@@ -16,17 +16,32 @@ if [[ "${NAME}" == *Alpine* ]]; then
 	echo -e "\033[1;32m----自签证书生成----\033[0m"
 
 	echo -e "\033[1;32m选项：\033[0m"
-	echo "1：签发1个域名证书（面板和节点使用同一个证书,默认选项）"
-	echo "2：签发2个不同的域名证书（面板和节点各一个）"
+	echo "1：签发1个域名证书并配置信息（面板和节点使用同一个证书,默认选项）"
+	echo "2：签发2个不同的域名证书并配置信息（面板和节点各一个）"
 	echo -n "选择："
 	read address_choose
 	address_choose=${address_choose:-1}
 
 	if (( ${address_choose} == 1 )); then
-		echo -e "\033[1;32m注意：不是填写dns记录里的域名，而是填写解析域名。\033[0m"
+		echo -e "\033[1;32m注意：第一个输入域名不是填写dns记录里的域名，而是填写解析域名。\033[0m"
 		echo -n "输入域名："
 		read address
-
+		
+		echo -n "输入dns记录上的域名："
+		read address_domain
+		
+		echo -n "输入面板路径(格式：/路径,默认:/panel)："
+		read sui_path
+		sui_path=${sui_path:-/panel}
+		
+		echo -n "输入面板端口(默认：12345)："
+		read sui_port
+		sui_port=${sui_port:-12345}
+		
+		echo -n "输入服务端的节点端口(默认:20001)："
+		read proxy_port
+		proxy_port=${proxy_port:-20001}
+		
 		certs_path="/certs/${address}_ecc"
 		mkdir -p ${certs_path}
 		openssl genrsa -out ${certs_path}/server.key 2048
@@ -41,15 +56,21 @@ if [[ "${NAME}" == *Alpine* ]]; then
 		grpc_path=$(cat /dev/urandom | tr -cd 'a-zA-Z0-9' | head -c 8)		# 生成随机的gprc路径
 		cat << EOF > ${caddy_file}
 *.${address} {
-	tls /certs/${address}_ecc/server.crt /certs/${address}_ecc/server.key
-	@sui path /suipanelweb*
-	handle @sui {
-		reverse_proxy localhost:12345
+	tls /certs/owob.netlib.re_ecc/server.crt /certs/owob.netlib.re_ecc/server.key
+	@fweb_suipanelweb {
+		host ${address_domain}.${address}
+		path ${sui_path}*
+	}
+	handle @fweb_suipanelweb {
+		reverse_proxy localhost:${sui_port}
 	}
 
-	@grpc path /${grpc_path}*
+	@grpc {
+		host ${address_domain}.${address}
+		path /${grpc_path}*
+	}
 	handle @grpc {
-		reverse_proxy localhost:20001 {
+		reverse_proxy localhost:${proxy_port} {
 			transport http {
 	            versions h2c
 	        }
