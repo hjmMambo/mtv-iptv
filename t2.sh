@@ -1,4 +1,4 @@
 #!/bash/bin
 
-. t1.sh
+echo "t2执行了"
 echo "${name}"
