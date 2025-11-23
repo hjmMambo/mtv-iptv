@@ -67,30 +67,35 @@ config_after_install() {
     /usr/local/s-ui/sui migrate
     
     echo -e "${yellow}Install/update finished! For security it's recommended to modify panel settings ${plain}"
-    read -p "是否需要设置面板和管理员账号 [y/n,默认y]? ": config_confirm
-    config_confirm=${config_confirm:-y}
+    # read -p "是否需要设置面板和管理员账号 [y/n,默认y]? ": config_confirm
+    # config_confirm=${config_confirm:-y}
+    config_confirm="y"
     if [[ "${config_confirm}" == "y" || "${config_confirm}" == "Y" ]]; then
-        echo -ne "Enter the ${yellow}panel port${plain} (默认面板端口：12345):"
-        read config_port
-        config_port=${config_port:-12345}
-        echo "${config_port}"
+        # echo -ne "Enter the ${yellow}panel port${plain} (默认面板端口：12345):"
+        # read config_port
+        # config_port=${config_port:-12345}
+        # echo "${config_port}"
+        config_port=${sui_port}
         
-        echo -ne "Enter the ${yellow}panel path${plain} (默认面板路径：/suipanelweb):"
-        read config_path
-        config_path=${config_path:-/suipanelweb}
-        echo "${config_path}"
+        # echo -ne "Enter the ${yellow}panel path${plain} (默认面板路径：/suipanelweb):"
+        # read config_path
+        # config_path=${config_path:-/suipanelweb}
+        # echo "${config_path}"
+        config_path=${sui_path}
         
 
         # Sub configuration
-        echo -ne "Enter the ${yellow}subscription port${plain} (默认订阅端口：12346):"
-        read config_subPort
-        config_subPort=${config_subPort:-12346}
-        echo "${config_subPort}"
+        # echo -ne "Enter the ${yellow}subscription port${plain} (默认订阅端口：12346):"
+        # read config_subPort
+        # config_subPort=${config_subPort:-12346}
+        # echo "${config_subPort}"
+        config_path="12346"
         
-        echo -ne "Enter the ${yellow}subscription path${plain} (默认订阅路径:/subs):" 
-        read config_subPath
-        config_subPath=${config_subPath:-/subs}
-        echo "${config_subPath}"
+        # echo -ne "Enter the ${yellow}subscription path${plain} (默认订阅路径:/subs):" 
+        # read config_subPath
+        # config_subPath=${config_subPath:-/subs}
+        # echo "${config_subPath}"
+        config_subPath="sui_subPath"
 
         # Set configs
         echo -e "${yellow}Initializing, please wait...${plain}"
@@ -101,8 +106,9 @@ config_after_install() {
         [ -z "$config_subPath" ] || params="$params -subPath $config_subPath"
         /usr/local/s-ui/sui setting ${params}
 
-        read -p "是否修改管理员账号 [y/n,默认n]? ": admin_confirm
-        admin_confirm=${admin_confirm:-n}
+        # read -p "是否修改管理员账号 [y/n,默认n]? ": admin_confirm
+        # admin_confirm=${admin_confirm:-n}
+        admin_confirm="n"
         if [[ "${admin_confirm}" == "y" || "${admin_confirm}" == "Y" ]]; then
             # First admin credentials
             read -p "Please set up your username:" config_account
