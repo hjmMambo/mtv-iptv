@@ -13,15 +13,16 @@ if [[ "${NAME}" == *Alpine* ]]; then
 	apk add iproute2
 
 	domain_list=()
-	echo -e "\033[1;32m----自签证书生成----\033[0m"
+	# echo -e "\033[1;32m----自签证书生成----\033[0m"
 
-	echo -e "\033[1;32m选项：\033[0m"
-	echo "1：签发1个域名证书并配置信息（面板和节点使用同一个证书,默认选项）"
-	echo "2：签发2个不同的域名证书并配置信息（面板和节点各一个）"
-	echo -n "选择："
-	read address_choose
-	address_choose=${address_choose:-1}
-
+	# echo -e "\033[1;32m选项：\033[0m"
+	# echo "1：签发1个域名证书并配置信息（面板和节点使用同一个证书,默认选项）"
+	# echo "2：签发2个不同的域名证书并配置信息（面板和节点各一个）"
+	# echo -n "选择："
+	# read address_choose
+	# address_choose=${address_choose:-1}
+	
+	address_choose=1
 	if (( ${address_choose} == 1 )); then
 		echo -e "\033[1;32m注意：第一个输入域名不是填写dns记录里的域名，而是填写解析域名。\033[0m"
 		echo -n "输入域名："
