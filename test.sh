@@ -148,7 +148,7 @@ fi
 	fi
 	
 	echo -e "\033[1;32mgrpc路径：${grpc_path}\033[0m"
-	echo -e "\033[1;32m节点端口:20001\033[0m"
+	echo -e "\033[1;32m节点配置端口:20001\033[0m"
 else
 	echo "不相等"
 fi
