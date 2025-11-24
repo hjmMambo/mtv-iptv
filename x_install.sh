@@ -53,16 +53,16 @@ background="true"
 #start_stop_daemon_args="-p ${pidfile}"
 
 start() {
-    start-stop-daemon --start \
-        --exec ${command} \
-        --pidfile ${pidfile} \
-        --background \
-        --make-pidfile \
+    start-stop-daemon --start \\
+        --exec ${command} \\
+        --pidfile ${pidfile} \\
+        --background \\
+        --make-pidfile \\
         -- ${command_args} # 将 command_args 传递给 Xray 进程
 }
 
 stop() {
-	start-stop-daemon --stop \
+	start-stop-daemon --stop \\
 	--pidfile ${pidfile}
 }
 EOF
