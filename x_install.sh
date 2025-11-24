@@ -37,7 +37,7 @@ chmod r+w+x /etc/init.d/xray_service
 
 
 
-cat << EOF > /etc/init.d/xray_service
+cat << \EOF > /etc/init.d/xray_service
 #!/sbin/openrc-run
 
 depend() {
