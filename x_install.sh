@@ -184,7 +184,7 @@ EOF
 # 启动caddy
 echo -e "${green}启动caddy${colorend}"
 caddy_status=$(rc-service caddy status)
-if [[ ${caddy_status} == " * status: started" ]]; then
+if [[ ${caddy_status} == *status: started* ]]; then
     echo -e "${green}检测到 caddy 已启动${colorend}"
     echo -e "${green}重新加载 caddy${colorend}"
     rc-service caddy reload
@@ -199,7 +199,7 @@ echo -e "${green}启动 x-ray${colorend}"
 rc-service xray_service start
 
 xray_status=$(rc-service xray_service status)
-if [[ ${xray_status} == " * WARNING: xray_service has already been started" ]]; then
+if [[ ${xray_status} == *already been started* ]]; then
     echo -e "${green}检测到 xray 已启动${colorend}"
     echo -e "${green}重新加载 xray${colorend}"
     rc-service xray_service reload
