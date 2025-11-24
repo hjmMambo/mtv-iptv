@@ -76,6 +76,7 @@ touch /usr/local/etc/xray/config.json
 uuid=$(xray uuid)
 # 生成路径
 vless_path=$(cat /dev/urandom | td -cd 'a-zA-Z0-9' | head -c 8)
+echo "vless_path路径：${vless_path}"
 
 echo -n "输入域名："
 read domain
