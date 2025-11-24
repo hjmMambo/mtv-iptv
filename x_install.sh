@@ -50,7 +50,6 @@ command="/usr/local/bin/xray"			# xray执行文件路径
 command_args="-c /usr/local/etc/xray/config.json"	# xray的节点配置信息。
 pidfile="/var/run/xray.pid"
 background="true"
-#start_stop_daemon_args="-p ${pidfile}"
 
 start() {
     start-stop-daemon --start \\
