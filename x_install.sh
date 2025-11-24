@@ -75,7 +75,7 @@ touch /usr/local/etc/xray/config.json
 # 生成uuid
 uuid=$(xray uuid)
 # 生成路径
-vless_path=$(cat /dev/urandom | td -cd 'a-zA-Z0-9' | head -c 8)
+vless_path=$(cat /dev/urandom | tr -cd 'a-zA-Z0-9' | head -c 8)
 echo -e "${green}vless_path路径：${vless_path}${colorend}"
 
 echo -n "输入域名："
