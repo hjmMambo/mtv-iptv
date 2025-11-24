@@ -198,5 +198,15 @@ sleep 1s
 echo -e "${green}启动 x-ray${colorend}"
 rc-service xray_service start
 
+xray_status=$(rc-service xray_service status)
+if [[ ${xray_status} == " * WARNING: xray_service has already been started" ]]; then
+    echo -e "${green}检测到 xray 已启动${colorend}"
+    echo -e "${green}重新加载 xray${colorend}"
+    rc-service xray_service reload
+else
+    echo -e "${green}启动 xray${colorend}"
+	rc-service xray_service start
+fi
+
 # 节点信息
 echo -e "${green}vless://${uuid}@${domain}:443?encryption=none&security=tls&sni=${domain}&type=ws&path=%2F${vless_path}#vless${colorend}"
