@@ -193,7 +193,6 @@ else
 	rc-service caddy start
 fi
 
-sleep 1s
 # 启动 x-ray
 echo -e "${green}启动 x-ray${colorend}"
 rc-service xray_service start
