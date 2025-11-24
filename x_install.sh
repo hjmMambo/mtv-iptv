@@ -33,7 +33,7 @@ chmod a+w /var/log/xray/*.log	# 设置日志文件权限
 
 # 创建OpenRC服务
 touch /etc/init.d/xray_service
-chmod r+w+x /etc/init.d/xray_service
+chmod +x /etc/init.d/xray_service
 
 
 
