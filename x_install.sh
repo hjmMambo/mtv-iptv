@@ -194,5 +194,8 @@ else
 	rc-service caddy start
 fi
 
+# 启动 x-ray
+rc-service xray_service start
+
 # 节点信息
 echo -e "${green}vless://${uuid}@${domain}:${vless_port}?encryption=none&security=tls&sni=${domain}&type=ws&path=%2F${vless_path}#vless${colorend}"
