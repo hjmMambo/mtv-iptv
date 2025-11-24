@@ -198,4 +198,4 @@ fi
 rc-service xray_service start
 
 # 节点信息
-echo -e "${green}vless://${uuid}@${domain}:${vless_port}?encryption=none&security=tls&sni=${domain}&type=ws&path=%2F${vless_path}#vless${colorend}"
+echo -e "${green}vless://${uuid}@${domain}:443?encryption=none&security=tls&sni=${domain}&type=ws&path=%2F${vless_path}#vless${colorend}"
