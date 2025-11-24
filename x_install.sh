@@ -70,6 +70,7 @@ EOF
 # 创建节点配置文件
 mkdir -p /usr/local/etc/xray
 touch /usr/local/etc/xray/config.json
+chmod r+w /usr/local/etc/xray/config.json
 
 # 生成uuid
 uuid=$(xray uuid)
