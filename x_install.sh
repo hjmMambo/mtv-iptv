@@ -195,6 +195,7 @@ else
 fi
 
 # 启动 x-ray
+echo -e "${green}启动 x-ray${colorend}"
 rc-service xray_service start
 
 # 节点信息
