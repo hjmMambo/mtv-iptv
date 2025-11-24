@@ -170,7 +170,7 @@ cat << EOF > /etc/caddy/Caddyfile
 ${domain} {
 	tls /certs/${domain}_ecc/server.crt /certs/${domain}_ecc/server.key
 
-    @path path /${vless_path}
+    @path path /${vless_path}*
     handle @path {
         reverse_proxy localhost:${vless_port}
     }
