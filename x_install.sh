@@ -184,7 +184,7 @@ EOF
 # 启动caddy
 echo -e "${green}启动caddy${colorend}"
 caddy_status=$(rc-service caddy status)
-if [[ ${message} == " * status: started" ]]; then
+if [[ ${caddy_status} == " * status: started" ]]; then
     echo -e "${green}检测到 caddy 已启动${colorend}"
     echo -e "${green}重新加载 caddy${colorend}"
     rc-service caddy reload
