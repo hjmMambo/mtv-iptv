@@ -1,4 +1,3 @@
-**测试脚本执行命令：**
 ```bash
 bash <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/test.sh)
 
