@@ -161,7 +161,7 @@ fi
 	# curl -fsSL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/install.sh -o install.sh
 	# chmod +x install.sh
 	# ./install.sh
-	source <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/install.sh)
+	source <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/sui.sh)
 	
 	nohup /usr/local/s-ui/sui > /var/log/s-ui.log 2>&1 &
 	echo -e "\033[1;32m成功启动 s-ui\033[0m"
