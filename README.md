@@ -10,7 +10,7 @@ bash <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/m
 
 套隧道
 ```
-bash <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/tunel_install.sh)
+bash <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/install_tunnel.sh)
 ```
 
 64m小鸡专用
