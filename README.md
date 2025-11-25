@@ -4,3 +4,6 @@ bash <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/m
 ```
 bash <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/x_install.sh)
 ```
+```
+bash <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/tunel_install.sh)
+```
