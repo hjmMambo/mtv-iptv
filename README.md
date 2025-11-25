@@ -14,4 +14,6 @@ bash <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/m
 ```
 
 套cdn+nginx
-
+```
+https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/install_64m.sh
+```
