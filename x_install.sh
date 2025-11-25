@@ -50,6 +50,7 @@ command="/usr/local/bin/xray"			# xray执行文件路径
 command_args="-c /usr/local/etc/xray/config.json"	# xray的节点配置信息。
 pidfile="/var/run/xray.pid"
 background="true"
+extra_started_commands="reload"
 
 start() {
     start-stop-daemon --start \
@@ -62,7 +63,12 @@ start() {
 
 stop() {
 	start-stop-daemon --stop \
-	--pidfile ${pidfile}
+	    --pidfile ${pidfile}
+}
+
+reload() {
+	start-stop-daemon --signal HUP \
+        --pidfile ${pidfile}
 }
 EOF
 
@@ -181,10 +187,12 @@ ${domain} {
 EOF
 
 
+
 # 启动caddy
-echo -e "${green}启动caddy${colorend}"
 caddy_status=$(rc-service caddy status)
-if [[ ${caddy_status} == *status: started* ]]; then
+sleep 0.5s
+echo "${green}caddy_status:${caddy_status}${colorend}"
+if [[ ${caddy_status} == *"started"* || ${caddy_status} == *"already been started"* ]]; then
     echo -e "${green}检测到 caddy 已启动${colorend}"
     echo -e "${green}重新加载 caddy${colorend}"
     rc-service caddy reload
@@ -193,15 +201,15 @@ else
 	rc-service caddy start
 fi
 
-# 启动 x-ray
-echo -e "${green}启动 x-ray${colorend}"
-rc-service xray_service start
 
+# 启动 x-ray
 xray_status=$(rc-service xray_service status)
-if [[ ${xray_status} == *already been started* ]]; then
+sleep 0.5s
+echo "xray_status:${xray_status}"
+if [[ ${xray_status} == *"started"* || ${xray_status} == *"already been started"* ]]; then
     echo -e "${green}检测到 xray 已启动${colorend}"
-    echo -e "${green}重新加载 xray${colorend}"
-    rc-service xray_service reload
+    echo -e "${green}重新启动 xray${colorend}"
+    rc-service xray_service restart
 else
     echo -e "${green}启动 xray${colorend}"
 	rc-service xray_service start
