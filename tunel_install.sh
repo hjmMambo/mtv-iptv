@@ -3,6 +3,8 @@
 green="\033[1;32m"
 colorend="\033[0m"
 
+echo -e "${green}安装必要安装包${colorend}"
+apk add bash curl
 
 echo -e "${green}正在安装 openssl${colorend}"
 apk add openssl
