@@ -35,8 +35,8 @@ depend() {
 }
 name="xray"
 description="Xray-core service"
-command="/usr/local/bin/xray"			# xray执行文件路径
-command_args="-c /usr/local/etc/xray/config.json"	# xray的节点配置信息。
+command="/usr/local/bin/xray"
+command_args="-c /usr/local/etc/xray/config.json"
 pidfile="/var/run/xray.pid"
 background="true"
 extra_started_commands="reload"
@@ -46,7 +46,7 @@ start() {
         --pidfile ${pidfile} \
         --background \
         --make-pidfile \
-        -- ${command_args} # 将 command_args 传递给 Xray 进程
+        -- ${command_args}
 }
 stop() {
 	start-stop-daemon --stop \
