@@ -20,9 +20,9 @@ apk add caddy
 
 echo -e "${green}正在安装 cloudflared${colorend}"
 
-sudo mkdir -p --mode=0755 /usr/share/keyrings && 
+mkdir -p --mode=0755 /usr/share/keyrings && 
 curl -fsSL https://pkg.cloudflare.com/cloudflare-public-v2.gpg | sudo tee /usr/share/keyrings/cloudflare-public-v2.gpg >/dev/null &&
-sudo mkdir -p /etc/apt/sources.list.d
+mkdir -p /etc/apt/sources.list.d
 echo 'deb [signed-by=/usr/share/keyrings/cloudflare-public-v2.gpg] https://pkg.cloudflare.com/cloudflared any main' | sudo tee /etc/apt/sources.list.d/cloudflared.list &&
 curl -L https://github.com/cloudflare/cloudflared/releases/download/2025.11.1/cloudflared-linux-amd64 -o cloudflared && 
 chmod +x cloudflared && 
