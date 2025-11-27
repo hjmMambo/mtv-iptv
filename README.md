@@ -15,5 +15,5 @@ bash <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/m
 
 64m小鸡专用
 ```
-https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/install_64m.sh
+bash <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/install_64m.sh)
 ```
