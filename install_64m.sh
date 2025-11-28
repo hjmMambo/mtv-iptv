@@ -13,7 +13,7 @@ echo -n "正在安装 nginx"
 apk add nginx
 # 下载xray内核
 echo -e "${green}下载 Xray 内核${colorend}"
-wget https://github.com/hjmMambo/all-goods/blob/master/xray
+wget https://raw.githubusercontent.com/hjmMambo/all-goods/refs/heads/master/xray
 # 移动xray到/usr/local/bin
 mv xray /usr/local/bin
 
