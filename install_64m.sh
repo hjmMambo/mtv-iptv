@@ -13,7 +13,7 @@ echo -n "正在安装 nginx"
 apk add nginx
 # 下载xray内核
 echo -e "${green}下载 Xray 内核${colorend}"
-wget https://github.com/XTLS/Xray-core/releases/download/v25.10.15/Xray-linux-64.zip
+wget https://github.com/hjmMambo/mtv-iptv/blob/main/Xray-linux-64.zip
 # 解压xray程序到 /usr/local/bin 目录下，方便直接调用
 unzip /root/Xray-linux-64.zip -d /usr/local/bin
 chmod +x /usr/local/bin/xray
