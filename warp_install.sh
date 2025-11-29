@@ -38,21 +38,14 @@ check_system() {
         log error "仅支持 Alpine系统"
         exit 1
     fi
-
-    # log info "清理旧文件"
-    # rm -rf /tmp/wgcf-account.toml           # 删除注册cloudflare warp的账户文件
-    # rm -rf /tmp/wgcf-profile.conf           # 删除注册时生成的wireguard配置文件
-    # rm -rf /etc/warp/wgcf-profile.conf      # 删除复制到warp路径的wgcf-profile文件
-    # rm -rf /usr/local/bin/wgcf              # 删除注册程序
-    # rm -rf /etc/init.d/wgcf_service         # 删除服务文件
-    # log info "清理旧文件结束"
 }
 
 # 安装各种软件包依赖以及wgcf
 install() {
     log info "正在安装依赖包"
     apk update > /dev/null
-    # apk add --no-cache wireguard-tools iproute2 openresolv iptables curl > /dev/null
+    
+    # 如果系统已经安装了已有的软件包就跳过，否则安装
     cat_list=$(cat /etc/apk/world)
     install_list=(wireguard-tools iproute2 openresolv iptables curl)
     for var in ${install_list[@]}; do
@@ -67,9 +60,8 @@ install() {
     # chmod +x /usr/local/bin/wgcf
     
     # ------------测试使用--------------
-    chmod +x /root/wgcf 
-    cp /root/wgcf /usr/local/bin
-    sleep 1s
+    chmod +x wgcf 
+    cp wgcf /usr/local/bin
 
     log info "安装 wireguard 内核"
     if ! modprobe wireguard 2> /dev/null; then
@@ -88,12 +80,13 @@ register() {
     fi
 
     cd /tmp
-    log info "注册 Cloudfalre WARP 账户"
-    yes | /usr/local/bin/wgcf register 2> /dev/null
+    log info "注册 WARP 账户"
+    yes | wgcf register 2> /dev/null                # 可以删除的文件
     sleep 5s
 
-    log info "生成 WireGuard 配置"
-    /usr/local/bin/wgcf generate 2> /dev/null
+
+    log info "生成配置"
+    wgcf generate 2> /dev/null
 }
 
 # 配置wireguard
@@ -102,10 +95,10 @@ configuration() {
         log error "wireguard配置生成失败"
         exit 1
     fi
-
+    rm -rf /usr/local/bin/wgcf
     mkdir -p /etc/warp
-    cp wgcf-profile.conf /etc/warp
-
+    mv wgcf-profile.conf /etc/warp
+    cd /etc/warp
     # 获取 wgcf-profile.conf的内容，用于配置wireguard
     PrivateKey=$(grep '^PrivateKey' wgcf-profile.conf | cut -d= -f2- | awk '$1=$1') 
     Address=$(grep '^Address' wgcf-profile.conf | cut -d= -f2- | tr -d '[:space:]')
@@ -113,21 +106,12 @@ configuration() {
     Address_ipv6=$(echo ${Address} | cut -d, -f2 | tr -d '[:space:]')
     PublicKey=$(grep '^PublicKey' wgcf-profile.conf | cut -d= -f2- | tr -d '[:space:]')
     Endpoint=$(grep '^Endpoint' wgcf-profile.conf | cut -d= -f2- | tr -d '[:space:]')
-    # log info ${PrivateKey}
-    # log info ${Address}
-    # log info "${Address_ipv4}"
-    # log info "${Address_ipv6}"
-    # log info "${PublicKey}"
-    # log info "${Endpoint}"
-    
 
 
     if [[ -z ${PrivateKey} || -z ${PublicKey} ]]; then
-        log error "读取wireguard配置失败"
+        log error "读取Warp配置失败"
         exit 1
     fi
-
-
     
     log warn "1.仅有 ipv6 的vps开启ipv4（默认）"
     log warn "2.仅有 ipv4 的vps开启ipv6"
@@ -138,7 +122,6 @@ configuration() {
     choose_menu=${choose_menu:-1}
 
     current_ip=$(curl -s ifconfig.me)
-    # if echo ${ip} | grep -Eq '^((25[0-5]|2[0-4][0-9]|1?[0-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1?[0-9]?[0-9])$'; then
     if (( ${choose_menu} == 1 )); then
         Address=$Address_ipv4
         Dns="2606:4700:4700::1111,2001:4860:4860::8888"
@@ -187,12 +170,12 @@ PublicKey = ${PublicKey}
 AllowedIPs = ${AllowedIPs}
 Endpoint = ${Endpoint}
 EOF
-    log info "WireGuard 配置已生成"
+    log info "Warp 配置已生成"
 
-    wireguard_systemName="wgcf_service"
+    wireguard_systemName="warp"
 
     if [[ ! -f "/etc/init.d/${wireguard_systemName}" ]]; then
-        log info "wgcf.service 不存在，开始创建"
+        log info "Warp 服务不存在，开始创建"
 
         cat > "/etc/init.d/${wireguard_systemName}" << 'EOF'
 #!/sbin/openrc-run
@@ -236,7 +219,7 @@ EOF
     chmod +x "/etc/init.d/${wireguard_systemName}"
     # log info "启动 Warp"
     # 先检查 Warp 的状态
-    log info "启动 wireguard"
+    log info "启动 Warp"
     wireguard_status=$(rc-service ${wireguard_systemName} start 2>&1)
     # 如果服务没有启动，就使用start命令启动
     if [[ ${wireguard_status} =~ "already been started" ]]; then       # 如果服务已经启动，就使用restart命令重启
@@ -245,14 +228,10 @@ EOF
         rc-service ${wireguard_systemName} restart > /dev/null
     fi
     log info "成功启动 Wrap"
-    wget https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/warp_control.sh -O warp
+    wget https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/warp_control.sh -O warp > /dev/null 2>&1
     chmod +x warp
     mv warp /usr/local/bin
     log info "可输入 warp h 打开控制台"
-    # rm -rf /tmp/wgcf_account.toml           # 删除注册cloudflare warp的账户文件
-    # rm -rf /tmp/wgcf-profile.conf           # 删除注册时生成的wireguard配置文件
-    # rm -rf /etc/warp/wgcf-profile.conf      # 删除复制到warp路径的wgcf-profile文件
-    # rm -rf /usr/local/bin/wgcf              # 删除注册程序
 }
 
 
