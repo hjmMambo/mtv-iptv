@@ -58,7 +58,7 @@ install() {
     for var in ${install_list[@]}; do
         if ! echo "${cat_list}" | grep -q "^${var}"; then
             echo "正在安装 ${var}"
-            apk add ${cat_list}
+            apk add ${var}
         fi
     done
 
