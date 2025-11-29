@@ -56,8 +56,8 @@ install() {
     cat_list=$(cat /etc/apk/world)
     install_list=(wireguard-tools iproute2 openresolv iptables curl)
     for var in ${install_list[@]}; do
-        if echo "${cat_list}" | grep -q "^${var}"; then
-            echo "正在安装"
+        if ! echo "${cat_list}" | grep -q "^${var}"; then
+            echo "正在安装 ${var}"
             apk add ${cat_list}
         fi
     done
