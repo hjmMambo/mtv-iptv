@@ -17,3 +17,8 @@ bash <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/m
 ```
 bash <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/install_64m.sh)
 ```
+
+warp
+```
+bash <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/warp_install.sh)
+```
