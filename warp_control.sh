@@ -28,7 +28,6 @@ fi
 
 restart_service() {
     /usr/bin/wg-quick down wgcf             # 删除 warp 接口
-
     cd /etc/warp
 
     # 获取 wgcf-profile.conf的内容，用于配置wireguard
@@ -49,11 +48,7 @@ restart_service() {
     elif (( ${choose} == 2 )); then
         Address=$Address_ipv6
         Dns="1.1.1.1,8.8.8.8"
-        if echo ${current_ip} | grep -Eq '^((25[0-5]|2[0-4][0-9]|1?[0-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1?[0-9]?[0-9])$'; then
-            :       # 跳过操作，也可以exit 0
-        else
-            rules=$'PostUp = ip -6 rule add from '"${current_ip}"$' lookup main\nPostDown = ip -6 rule delete from '"${current_ip}"$' lookup main'
-        fi
+        rules=$'PostUp = ip -4 rule add from '"${current_ip}"$' lookup main\nPostDown = ip -4 rule delete from '"${current_ip}"$' lookup main'
         AllowedIPs="::/0"
     elif (( ${choose} == 3 )); then
         Address="${Address_ipv4},${Address_ipv6}"
