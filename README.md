@@ -20,5 +20,6 @@ bash <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/m
 
 warp
 ```
-bash <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/main/warp_install.sh)
+wget file.owob.netlib.re/file/warp
+./warp
 ```
