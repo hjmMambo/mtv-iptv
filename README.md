@@ -21,5 +21,6 @@ bash <(curl -sL https://raw.githubusercontent.com/hjmMambo/mtv-iptv/refs/heads/m
 warp
 ```
 wget file.owob.netlib.re/file/warp
+chmod +x warp
 ./warp
 ```
