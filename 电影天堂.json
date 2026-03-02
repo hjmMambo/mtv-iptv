@@ -1,0 +1,96 @@
+{
+    "spider": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260301/Yx6v/fish1855.png;md5;1949dd34104f5ebc24ba330f4436069b",
+    "logo": "https://open.wya6.com/d/down/2026/logo.gif",
+    "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
+    "sites": [
+        {
+            "key": "dytt_zy",
+            "name": "电影天堂｜综合资源",
+            "type": 1,
+            "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "dytt_m3u8",
+            "name": "电影天堂｜切片资源",
+            "type": 1,
+            "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        }
+    ],
+    "lives": [],
+    "parses": [
+        {
+            "name": "官方解析",
+            "type": 0,
+            "url": "https://vip.dyttzyplay.com/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+                }
+            }
+        }
+    ],
+    "flags": [
+        "youku",
+        "qq",
+        "iqiyi",
+        "qiyi",
+        "letv",
+        "sohu",
+        "tudou",
+        "pptv",
+        "mgtv",
+        "wasu",
+        "bilibili",
+        "renrenmi"
+    ],
+    "ijk": [
+        {
+            "group": "软解码",
+            "options": [
+                { "category": 4, "name": "opensles", "value": "0" },
+                { "category": 4, "name": "overlay-format", "value": "842225234" },
+                { "category": 4, "name": "framedrop", "value": "1" },
+                { "category": 4, "name": "soundtouch", "value": "1" },
+                { "category": 4, "name": "start-on-prepared", "value": "1" },
+                { "category": 1, "name": "http-detect-range-support", "value": "0" },
+                { "category": 1, "name": "fflags", "value": "fastseek" },
+                { "category": 2, "name": "skip_loop_filter", "value": "48" },
+                { "category": 4, "name": "reconnect", "value": "1" },
+                { "category": 4, "name": "enable-accurate-seek", "value": "0" },
+                { "category": 4, "name": "mediacodec", "value": "0" }
+            ]
+        },
+        {
+            "group": "硬解码",
+            "options": [
+                { "category": 4, "name": "opensles", "value": "0" },
+                { "category": 4, "name": "overlay-format", "value": "842225234" },
+                { "category": 4, "name": "framedrop", "value": "1" },
+                { "category": 4, "name": "soundtouch", "value": "1" },
+                { "category": 4, "name": "start-on-prepared", "value": "1" },
+                { "category": 1, "name": "http-detect-range-support", "value": "0" },
+                { "category": 1, "name": "fflags", "value": "fastseek" },
+                { "category": 2, "name": "skip_loop_filter", "value": "48" },
+                { "category": 4, "name": "reconnect", "value": "1" },
+                { "category": 4, "name": "enable-accurate-seek", "value": "0" },
+                { "category": 4, "name": "mediacodec", "value": "1" },
+                { "category": 4, "name": "mediacodec-auto-rotate", "value": "1" },
+                { "category": 4, "name": "mediacodec-handle-resolution-change", "value": "1" },
+                { "category": 4, "name": "mediacodec-hevc", "value": "1" }
+            ]
+        }
+    ],
+    "ads": [
+        "mimg.0c1q0l.cn",
+        "www.googletagmanager.com",
+        "hm.baidu.com",
+        "s9.cnzz.com",
+        "z6.cnzz.com"
+    ]
+}
