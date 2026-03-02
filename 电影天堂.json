@@ -4,8 +4,17 @@
     "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
     "sites": [
         {
-            "key": "dytt_zy",
-            "name": "电影天堂｜综合资源",
+            "key": "dytt_xml_all",
+            "name": "电影天堂｜综合(XML)",
+            "type": 0,
+            "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "dytt_json_app",
+            "name": "电影天堂｜APP接口(JSON)",
             "type": 1,
             "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
             "searchable": 1,
@@ -13,10 +22,10 @@
             "filterable": 1
         },
         {
-            "key": "dytt_m3u8",
-            "name": "电影天堂｜切片资源",
-            "type": 1,
-            "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/",
+            "key": "dytt_m3u8_xml",
+            "name": "电影天堂｜切片(XML)",
+            "type": 0,
+            "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/xml/",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -53,36 +62,136 @@
         {
             "group": "软解码",
             "options": [
-                { "category": 4, "name": "opensles", "value": "0" },
-                { "category": 4, "name": "overlay-format", "value": "842225234" },
-                { "category": 4, "name": "framedrop", "value": "1" },
-                { "category": 4, "name": "soundtouch", "value": "1" },
-                { "category": 4, "name": "start-on-prepared", "value": "1" },
-                { "category": 1, "name": "http-detect-range-support", "value": "0" },
-                { "category": 1, "name": "fflags", "value": "fastseek" },
-                { "category": 2, "name": "skip_loop_filter", "value": "48" },
-                { "category": 4, "name": "reconnect", "value": "1" },
-                { "category": 4, "name": "enable-accurate-seek", "value": "0" },
-                { "category": 4, "name": "mediacodec", "value": "0" }
+                {
+                    "category": 4,
+                    "name": "opensles",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "overlay-format",
+                    "value": "842225234"
+                },
+                {
+                    "category": 4,
+                    "name": "framedrop",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "soundtouch",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "start-on-prepared",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "http-detect-range-support",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "fflags",
+                    "value": "fastseek"
+                },
+                {
+                    "category": 2,
+                    "name": "skip_loop_filter",
+                    "value": "48"
+                },
+                {
+                    "category": 4,
+                    "name": "reconnect",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "enable-accurate-seek",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec",
+                    "value": "0"
+                }
             ]
         },
         {
             "group": "硬解码",
             "options": [
-                { "category": 4, "name": "opensles", "value": "0" },
-                { "category": 4, "name": "overlay-format", "value": "842225234" },
-                { "category": 4, "name": "framedrop", "value": "1" },
-                { "category": 4, "name": "soundtouch", "value": "1" },
-                { "category": 4, "name": "start-on-prepared", "value": "1" },
-                { "category": 1, "name": "http-detect-range-support", "value": "0" },
-                { "category": 1, "name": "fflags", "value": "fastseek" },
-                { "category": 2, "name": "skip_loop_filter", "value": "48" },
-                { "category": 4, "name": "reconnect", "value": "1" },
-                { "category": 4, "name": "enable-accurate-seek", "value": "0" },
-                { "category": 4, "name": "mediacodec", "value": "1" },
-                { "category": 4, "name": "mediacodec-auto-rotate", "value": "1" },
-                { "category": 4, "name": "mediacodec-handle-resolution-change", "value": "1" },
-                { "category": 4, "name": "mediacodec-hevc", "value": "1" }
+                {
+                    "category": 4,
+                    "name": "opensles",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "overlay-format",
+                    "value": "842225234"
+                },
+                {
+                    "category": 4,
+                    "name": "framedrop",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "soundtouch",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "start-on-prepared",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "http-detect-range-support",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "fflags",
+                    "value": "fastseek"
+                },
+                {
+                    "category": 2,
+                    "name": "skip_loop_filter",
+                    "value": "48"
+                },
+                {
+                    "category": 4,
+                    "name": "reconnect",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "enable-accurate-seek",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-auto-rotate",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-handle-resolution-change",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-hevc",
+                    "value": "1"
+                }
             ]
         }
     ],
