@@ -5,12 +5,12 @@ wget file.ovob.qzz.io/file/tunnel && chmod +x tunnel && ./tunnel
 
 64m机器专用
 ```
-wget file.ovob.qzz.io/file/64m && chmod +x 64m && ./64m
+wget file.ovob.de5.net/file/64m && chmod +x 64m && ./64m
 ```
 
 64m_arm机器专用
 ```
-wget file.ovob.qzz.io/file/64m_arm -O 64m && chmod +x 64m && ./64m
+wget file.ovob.de5.net/file/64m_arm -O 64m && chmod +x 64m && ./64m
 ```
 
 warp
